@@ -12,3 +12,94 @@ img,
 video {
   display: block;
 }
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.shopping-cart {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 2px 2px 8px 0px #00000040;
+  width: 284px;
+  top: 50px;
+  left: 50px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 244px;
+  height: fit-content;
+  gap: 15px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 116px;
+}
+
+.product-title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.product-stock {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.product-price {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 244px;
+  height: 50px;
+  border-radius: 25px;
+  background: #0a003c;
+  transition: background 0.2s 0.2s ease-out;
+}
+
+.button:hover {
+  background: #4924ff;
+}
+
+.button a {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: white;
+  text-decoration: none;
+}
